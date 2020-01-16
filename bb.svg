@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" viewBox="0 0 750 900">
+    <defs></defs>
+    <image></image>
+    <g>
+        <polygon onmouseout="evt.target.setAttribute('opacity','0');" onmouseover="evt.target.setAttribute('opacity', '0.5');" id="5e1fd4c6cdf3131fa0759ff8" points="307,330 404,329 404,430 297,430 296,395 309,396" opacity="0"></polygon>
+    </g>
+    <g>
+        <polygon onmouseout="evt.target.setAttribute('opacity','0');" onmouseover="evt.target.setAttribute('opacity', '0.5');" id="5e1fd4d3cdf3131fa0759ff9" points="429,330 523,330 523,393 534,398 533,429 429,430" opacity="0"></polygon>
+    </g>
+    <g>
+        <polygon onmouseout="evt.target.setAttribute('opacity','0');" onmouseover="evt.target.setAttribute('opacity', '0.5');" id="5e1fd4ebcdf3131fa0759ffa" points="426,435 535,436 531,497 497,500 495,510 430,509" opacity="0"></polygon>
+    </g>
+    <g>
+        <polygon onmouseout="evt.target.setAttribute('opacity','0');" onmouseover="evt.target.setAttribute('opacity', '0.5');" id="5e1fd4fccdf3131fa0759ffb" points="429,518 495,519 496,528 535,528 533,593 428,592" opacity="0"></polygon>
+    </g>
+    <g>
+        <polygon onmouseout="evt.target.setAttribute('opacity','0');" onmouseover="evt.target.setAttribute('opacity', '0.5');" id="5e1fd511cdf3131fa0759ffc" points="426,599 535,599 533,661 495,662 495,674 429,673" opacity="0"></polygon>
+    </g>
+    <g>
+        <polygon onmouseout="evt.target.setAttribute('opacity','0');" onmouseover="evt.target.setAttribute('opacity', '0.5');" id="5e1fd521cdf3131fa0759ffd" points="428,679 494,679 495,691 533,693 533,756 428,756" opacity="0"></polygon>
+    </g>
+    <g>
+        <polygon onmouseout="evt.target.setAttribute('opacity','0');" onmouseover="evt.target.setAttribute('opacity', '0.5');" id="5e1fd532cdf3131fa0759ffe" points="429,761 537,762 534,798 517,798 519,860 430,860" opacity="0"></polygon>
+    </g>
+    <g>
+        <polygon onmouseout="evt.target.setAttribute('opacity','0');" onmouseover="evt.target.setAttribute('opacity', '0.5');" id="5e1fd53ccdf3131fa0759fff" points="401,782 401,884 336,889 336,783" opacity="0"></polygon>
+    </g>
+    <g>
+        <polygon onmouseout="evt.target.setAttribute('opacity','0');" onmouseover="evt.target.setAttribute('opacity', '0.5');" id="5e1fd549cdf3131fa075a000" points="254,782 328,781 329,886 251,884" opacity="0"></polygon>
+    </g>
+    <g>
+        <polygon onmouseout="evt.target.setAttribute('opacity','0');" onmouseover="evt.target.setAttribute('opacity', '0.5');" id="5e1fd558cdf3131fa075a001" points="402,518 404,594 298,594 297,529 335,530 335,516"></polygon>
+    </g>
+    <g>
+        <polygon onmouseout="evt.target.setAttribute('opacity','0');" onmouseover="evt.target.setAttribute('opacity', '0.5');" id="5e1fd563cdf3131fa075a002" points="400,440 403,510 336,512 336,500 297,496 299,436"></polygon>
+    </g>
+</svg>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" viewBox="0 0 1920 969">
+    <defs></defs>
+    <image></image>
+    <g>
+        <polygon class="hoverable group-1" onmouseout="evt.target.setAttribute('opacity','1)');" onmouseover="evt.target.setAttribute('opacity', '0.5');" style="fill:rgba(61, 230, 72, 0.48)" id="5e1d7954da7ccb390cfe1747" points="902,325 898,200 978,156 998,180 997,187 1011,204 1011,225 1026,242 1076,222 1101,253 1091,261 1095,264 1103,259 1128,287 1122,343 1136,362 1141,359 1159,388 1161,402 1150,476 1128,487 1121,516 1108,524 1104,540 1079,556" opacity="1)"></polygon>
+        <g>
+            <rect class="5e1d7954da7ccb390cfe1749 fixed tooltip group-1" width="122.8" height="133" x="790" y="337" style="fill: rgb(30, 115, 190);"></rect>
+            <text text-anchor="middle" class="5e1d7954da7ccb390cfe1749 fixed tooltip-header group-1" x="851.4" y="418.8666666666667" style="unsafe"> Mặt bằng </text>
+            <text text-anchor="middle" class="5e1d7954da7ccb390cfe1749 fixed tooltip-content group-1" x="851.4" y="386.12" style="unsafe"> Tháp A </text>
+        </g>
+        <g>
+            <rect class="5e1d7954da7ccb390cfe1748 tooltip group-1" width="122.8" height="133" x="667" y="337" style="fill: rgba(255, 255, 255, 0.88); display: none;"></rect>
+            <text text-anchor="middle" class="5e1d7954da7ccb390cfe1748 tooltip-header group-1" x="728.4" y="418.8666666666667" style="display: none;"> 17 </text>
+            <text text-anchor="middle" class="5e1d7954da7ccb390cfe1748 tooltip-content group-1" x="728.4" y="386.12" style="display: none;"> Tầng </text>
+        </g>
+    </g>
+
+    <g>
+        <polygon class="hoverable group-2" onmouseout="evt.target.setAttribute('opacity','1)');" onmouseover="evt.target.setAttribute('opacity', '0.5');" style="fill:rgba(61, 230, 72, 0.48)" id="5e1d7a3bda7ccb390cfe174a" points="1082,215 1102,249 1114,243 1118,249 1110,259 1110,259 1134,284 1126,347 1134,359 1144,356 1148,341 1164,337 1175,345 1175,367 1232,438 1241,436 1247,444 1338,390 1373,283 1379,281 1357,251 1360,233 1337,205 1326,212 1316,229 1287,242 1260,225 1261,207 1226,161 1226,151 1208,131 1206,128 1135,167 1136,188 1083,214" opacity="1)"></polygon>
+        <g>
+            <rect class="5e1d7a3bda7ccb390cfe174c fixed tooltip group-2" width="122.8" height="133" x="1012" y="31" style="fill: rgb(30, 115, 190);"></rect>
+            <text text-anchor="middle" class="5e1d7a3bda7ccb390cfe174c fixed tooltip-header group-2" x="1073.4" y="112.86666666666666" style="unsafe"> Mặt bằng </text>
+            <text text-anchor="middle" class="5e1d7a3bda7ccb390cfe174c fixed tooltip-content group-2" x="1073.4" y="80.12" style="unsafe"> Tháp B </text>
+        </g>
+        <g>
+            <rect class="5e1d7a3bda7ccb390cfe174b tooltip group-2" width="122.8" height="133" x="888" y="31" style="fill: rgba(255, 255, 255, 0.88); display: none;"></rect>
+            <text text-anchor="middle" class="5e1d7a3bda7ccb390cfe174b tooltip-header group-2" x="949.4" y="84.2" style="display: none;"> 18 </text>
+            <text text-anchor="middle" class="5e1d7a3bda7ccb390cfe174b tooltip-content group-2" x="949.4" y="119.66666666666667" style="display: none;"> Tầng </text>
+        </g>
+    </g>
+
+    <g>
+        <polygon class="hoverable group-3" onmouseout="evt.target.setAttribute('opacity','1)');" onmouseover="evt.target.setAttribute('opacity', '0.5');" style="fill:rgba(61, 230, 72, 0.48)" id="5e1d7ac4da7ccb390cfe174f" points="1477,85 1443,109 1429,101 1408,113 1402,108 1300,169 1303,177 1295,184 1284,237 1316,221 1322,206 1334,201 1360,227 1359,247 1379,273 1384,275 1374,282 1358,329 1415,298 1432,313 1441,310 1444,315 1466,305 1481,312 1539,166 1547,161 1532,147 1477,84" opacity="1)"></polygon>
+        <g>
+            <rect class="5e1d7ac4da7ccb390cfe1751 fixed tooltip group-3" width="122.8" height="133" x="1549" y="47" style="fill: rgb(30, 115, 190);"></rect>
+            <text text-anchor="middle" class="5e1d7ac4da7ccb390cfe1751 fixed tooltip-header group-3" x="1610.4" y="128.86666666666667" style="unsafe"> Mặt bằng </text>
+            <text text-anchor="middle" class="5e1d7ac4da7ccb390cfe1751 fixed tooltip-content group-3" x="1610.4" y="96.12" style="unsafe"> Tháp C </text>
+        </g>
+        <g>
+            <rect class="5e1d7ac4da7ccb390cfe1750 tooltip group-3" width="122.8" height="133" x="1673" y="47" style="fill: rgba(255, 255, 255, 0.88); display: none;"></rect>
+            <text text-anchor="middle" class="5e1d7ac4da7ccb390cfe1750 tooltip-header group-3" x="1734.4" y="128.86666666666667" style="display: none;"> 20 </text>
+            <text text-anchor="middle" class="5e1d7ac4da7ccb390cfe1750 tooltip-content group-3" x="1734.4" y="96.12" style="display: none;"> Tầng </text>
+        </g>
+    </g>
+
+    <g>
+        <polygon class="hoverable group-4" onmouseout="evt.target.setAttribute('opacity','1)');" onmouseover="evt.target.setAttribute('opacity', '0.5');" style="fill:rgba(61, 230, 72, 0.48)" id="5e1d7b14da7ccb390cfe1756" points="1469,372 1483,386 1477,386 1430,500 1480,563 1630,482 1708,351 1679,320 1689,303 1602,209 1594,214 1586,211 1520,252 1466,370" opacity="1)"></polygon>
+        <g>
+            <rect class="5e1d7b14da7ccb390cfe1758 fixed tooltip group-4" width="122.8" height="133" x="1636" y="476" style="fill: rgb(30, 115, 190);"></rect>
+            <text text-anchor="middle" class="5e1d7b14da7ccb390cfe1758 fixed tooltip-header group-4" x="1697.4" y="557.8666666666667" style="unsafe"> Mặt bằng </text>
+            <text text-anchor="middle" class="5e1d7b14da7ccb390cfe1758 fixed tooltip-content group-4" x="1697.4" y="525.12" style="unsafe"> Tháp D </text>
+        </g>
+        <g>
+            <rect class="5e1d7b14da7ccb390cfe1757 tooltip group-4" width="122.8" height="133" x="1759" y="476" style="fill: rgba(255, 255, 255, 0.88); display: none;"></rect>
+            <text text-anchor="middle" class="5e1d7b14da7ccb390cfe1757 tooltip-header group-4" x="1820.4" y="529.2" style="display: none;"> 25 </text>
+            <text text-anchor="middle" class="5e1d7b14da7ccb390cfe1757 tooltip-content group-4" x="1820.4" y="564.6666666666666" style="display: none;"> Tầng </text>
+        </g>
+    </g>
+
+    <g>
+        <polygon class="hoverable group-5" onmouseout="evt.target.setAttribute('opacity','1)');" onmouseover="evt.target.setAttribute('opacity', '0.5');" style="fill:rgba(61, 230, 72, 0.48)" id="5e1d7b75da7ccb390cfe175f" points="1332,472 1339,461 1366,443 1431,522 1386,627 1385,638 1218,743 1194,701 1185,707 1109,609 1133,488 1207,442 1260,516 1328,470 1331,469" opacity="1)"></polygon>
+        <g>
+            <rect class="5e1d7b75da7ccb390cfe1761 fixed tooltip group-5" width="122.8" height="133" x="985" y="577" style="fill: rgb(30, 115, 190);"></rect>
+            <text text-anchor="middle" class="5e1d7b75da7ccb390cfe1761 fixed tooltip-header group-5" x="1046.4" y="658.8666666666667" style="unsafe"> Mặt bằng </text>
+            <text text-anchor="middle" class="5e1d7b75da7ccb390cfe1761 fixed tooltip-content group-5" x="1046.4" y="626.12" style="unsafe"> Tháp E </text>
+        </g>
+        <g>
+            <rect class="5e1d7b75da7ccb390cfe1760 tooltip group-5" width="122.8" height="133" x="861" y="577" style="fill: rgba(255, 255, 255, 0.88); display: none;"></rect>
+            <text text-anchor="middle" class="5e1d7b75da7ccb390cfe1760 tooltip-header group-5" x="922.4" y="630.2" style="display: none;"> 25 </text>
+            <text text-anchor="middle" class="5e1d7b75da7ccb390cfe1760 tooltip-content group-5" x="922.4" y="665.6666666666666" style="display: none;"> Tầng </text>
+        </g>
+    </g>
+
+
+  <script type="text/javascript"><![CDATA[
+  "use strict";
+
+window.addEventListener("load", function() {
+  var polys = document.getElementsByClassName("hoverable");
+  for(var i = 0; i < polys.length; i++) {
+    const poly = polys[i]
+    const group = poly.classList.item(1);
+    poly.addEventListener("mouseenter", () => {
+      var shapes = document.getElementsByClassName(group);
+      if (shapes) {
+        for (var i = 0; i < shapes.length; i++) {
+          const shape = shapes[i];
+          if (shape.classList.contains("fixed") || shape.classList.contains('hoverable')) {
+            continue;
+          } else {
+            shape.style.display = "block";
+          }
+        }
+      }
+    });
+    poly.addEventListener("mouseleave", () => {
+      var shapes = document.getElementsByClassName(group);
+      if (shapes) {
+        for (var i = 0; i < shapes.length; i++) {
+          const shape = shapes[i];
+          if (shape.classList.contains("fixed") || shape.classList.contains('hoverable')) {
+            continue;
+          } else {
+            shape.style.display = "none";
+          }
+        }
+      }
+    });
+  }
+  var data = [
+    {
+        "id": "5e1d7954da7ccb390cfe1747",
+        "target": "block.html?id=5e1d7954da7ccb390cfe1747"
+    },
+    {
+        "id": "5e1d7a3bda7ccb390cfe174a",
+        "target": "block.html?id=5e1d7a3bda7ccb390cfe174a"
+    },
+    {
+        "id": "5e1d7ac4da7ccb390cfe174f",
+        "target": "block.html?id=5e1d7ac4da7ccb390cfe174f"
+    },
+    {
+        "id": "5e1d7b14da7ccb390cfe1756",
+        "target": "block.html?id=5e1d7b14da7ccb390cfe1756"
+    },
+    {
+        "id": "5e1d7b75da7ccb390cfe175f",
+        "target": "block.html?id=5e1d7b75da7ccb390cfe175f"
+    }
+  ]
+  for(var i = 0; i < data.length; i++) {
+    const c = data[i];
+    let poly = document.getElementById(c.id);
+    if (poly) {
+      poly.addEventListener('click', () => {
+        window.open(c.target, '_blank')
+      });
+    } else {
+      console.log('something went wrong')
+    }
+  }
+  })
+]]></script>
+</svg>

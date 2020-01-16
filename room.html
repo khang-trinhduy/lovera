@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Landing page Demo!</title>
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="main-title"></div>
+      <div class="main-area">
+        <div class="vertical-area">
+          <object type="image/svg+xml"></object>
+        </div>
+        <div class="info-area">
+          <div class="selection-area">
+            <select name="roomsl" class="main-select">
+              <option value="a">1 PHÒNG NGỦ</option>
+              <option value="b">2 PHÒNG NGỦ</option>
+              <option value="c">3 PHÒNG NGỦ</option>
+            </select>
+          </div>
+          <div class="child-title">
+            <h3 id="title">DANH SÁCH CĂN</h3>
+          </div>
+          <div class="room-list-area"></div>
+          <div class="room-direction-area">
+            <h4>VỊ TRÍ CĂN HỘ</h4>
+          </div>
+        </div>
+      </div>
+      <div class="nav-area">
+        <a id="amaz-btn" href="index.html">Quay về</a>
+      </div>
+    </div>
+    <footer></footer>
+    <script>
+      window.addEventListener("load", function() {
+        let requestURL =
+          "https://raw.githubusercontent.com/khang-trinhduy/lovera-data/master/rooms.json";
+        let request = new XMLHttpRequest();
+        request.open("GET", requestURL);
+        request.responseType = "json";
+        request.send();
+        var types = [];
+        var data = [];
+        request.onload = function() {
+          const res = request.response;
+          data = res;
+          if (res) {
+            var id = getQuery("type");
+            if (id) {
+              types = res.filter(b => b.type === id);
+
+              updateMainSelect(id);
+
+              addSelectEventHandler();
+
+              addSubSelection(types);
+
+              populateData(types[0]);
+            }
+          }
+        };
+
+        function updateMainSelect(name) {
+            var container = document.querySelector('.select-area');
+            if (container) {
+                var select = container.firstChild;
+                if (select) {
+                    select.setAttribute("value", name);
+                }
+            }
+        }
+
+        function addSelectEventHandler() {
+          var select = document.querySelector(".main-select");
+          if (select) {
+            select.addEventListener("change", function(e) {
+              types = data.filter(t => t.type === e.target.value);
+              var select = document.querySelector(".selection-area");
+
+              if (select) {
+                select.removeChild(select.lastChild);
+                addSubSelection(types);
+              }
+              if (types && types.length > 0) {
+                populateData(types[0]);
+              }
+            });
+          }
+        }
+
+        function eventHandlerWrapper(type) {
+          populateData(type);
+        }
+
+        function clearChildNode(elem) {
+          elem.innerHTML = "";
+        }
+
+        function addSubSelection(arr) {
+          var sl = document.createElement("select");
+          for (let i = 0; i < arr.length; i++) {
+            const type = arr[i];
+            var option = document.createElement("option");
+            option.setAttribute("value", "LOẠI " + type.sub);
+            option.innerText = type.sub;
+            sl.appendChild(option);
+          }
+          sl.addEventListener("change", function(e) {
+            var type = types.find(t => t.sub === e.target.value);
+            if (type) {
+              console.log(type);
+              eventHandlerWrapper(type);
+            }
+          });
+          var select = document.querySelector(".selection-area");
+          if (select) {
+            select.appendChild(sl);
+          }
+        }
+
+        // creating left image
+        function addLeftImg(path) {
+          var leftImgContainer = document.querySelector(".vertical-area");
+          if (leftImgContainer) {
+            var url = window.location.pathname;
+            const index = url.lastIndexOf("/");
+            url = url.substring(0, index);
+            url = "url(" + url + "/" + path + ")";
+            leftImgContainer.style.backgroundImage = url;
+            var img = new Image();
+            img.src = "./" + path;
+            img.onload = () => {
+              leftImgContainer.style.height = img.height + "px";
+            };
+            leftImgContainer.style.backgroundRepeat = "no-repeat";
+            leftImgContainer.style.backgroundSize = "contain";
+          }
+        }
+
+        // creating room table
+        function addRoomTable(type) {
+          var table = document.createElement("table");
+          table.appendChild(tableHeader());
+          var body = document.createElement("tbody");
+          // adding room list table
+          var rows = tableRow(type.rooms);
+          for (let j = 0; j < rows.length; j++) {
+            const row = rows[j];
+            body.appendChild(row);
+          }
+
+          var listContainer = document.querySelector(".room-list-area");
+          if (listContainer) {
+            table.appendChild(body);
+            clearChildNode(listContainer);
+            listContainer.appendChild(table);
+          }
+        }
+
+        // creating direction image
+        function addRoomDirection(type) {
+          var header = document.getElementById("title");
+          if (header) {
+            header.innerText =
+              "DANH SÁCH CĂN " + type.name + " - LOẠI " + type.sub;
+          }
+          var container = document.querySelector(".room-direction-area");
+          if (container) {
+            let img = document.createElement("img");
+            img.src = "./" + type.loc;
+            img.onload = () => {};
+            clearChildNode(container);
+            container.appendChild(img);
+          }
+        }
+
+        function populateData(type) {
+          addLeftImg(type.view);
+          addRoomTable(type);
+          addRoomDirection(type);
+        }
+
+        tableHeader = () => {
+          var theader = document.createElement("thead");
+          var tr = document.createElement("tr");
+          var th = document.createElement("th");
+          th.innerText = "Mã căn";
+          var th1 = document.createElement("th");
+          th1.innerText = "Tầng";
+          var th2 = document.createElement("th");
+          th2.innerText = "DT Tim tường";
+          var th3 = document.createElement("th");
+          th3.innerText = "DT Thông thủy";
+          tr.appendChild(th);
+          tr.appendChild(th1);
+          tr.appendChild(th2);
+          tr.appendChild(th3);
+          return theader.appendChild(tr);
+        };
+
+        tableRow = arr => {
+          var trs = [];
+          for (let i = 0; i < arr.length; i++) {
+            var tr = document.createElement("tr");
+            const val = arr[i];
+            for (let j = 0; j < val.length; j++) {
+              const cell = val[j];
+              var td = document.createElement("td");
+              td.innerText = cell;
+              tr.appendChild(td);
+            }
+            trs.push(tr);
+          }
+          return trs;
+        };
+
+        function getQuery(name) {
+          let query = document.location.search;
+          var params = new URLSearchParams(query);
+          return params.get(name);
+        }
+      });
+    </script>
+  </body>
+</html>

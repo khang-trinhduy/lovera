@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" viewBox="0 0 1000 1200">
+    <defs></defs>
+    <image></image>
+    <g class="ng-star-inserted">
+        <polygon onmouseout="evt.target.setAttribute('opacity','0');" onmouseover="evt.target.setAttribute('opacity', '0.5');" style="fill:rgba(129,215,66,0.3)" id="5e1fe3e71be5cd20580a682c" points="349,210 440,214 434,333 350,332" class="a"></polygon>
+    </g>
+    <g class="ng-star-inserted">
+        <polygon onmouseout="evt.target.setAttribute('opacity','0');" onmouseover="evt.target.setAttribute('opacity', '0.5');" style="fill:rgba(129,215,66,0.3)" id="5e1fe3f81be5cd20580a682d" points="441,210 528,210 527,330 443,333" class="a"></polygon>
+    </g>
+    <g class="ng-star-inserted">
+        <polygon onmouseout="evt.target.setAttribute('opacity','0');" onmouseover="evt.target.setAttribute('opacity', '0.5');" style="fill:rgba(129,215,66,0.3)" id="5e1fe40a1be5cd20580a682e" points="349,41 434,42 434,91 453,91 452,176 350,181" class="b"></polygon>
+    </g>
+    <g class="ng-star-inserted">
+        <polygon onmouseout="evt.target.setAttribute('opacity','0');" onmouseover="evt.target.setAttribute('opacity', '0.5');" style="fill:rgba(129,215,66,0.3)" id="5e1fe4221be5cd20580a682f" points="473,39 558,39 557,181 456,179 456,91 474,93 475,40" class="b"></polygon>
+    </g>
+    <g class="ng-star-inserted">
+        <polygon onmouseout="evt.target.setAttribute('opacity','0');" onmouseover="evt.target.setAttribute('opacity', '0.5');" style="fill:rgba(129,215,66,0.3)" id="5e1fe42b1be5cd20580a6830" points="563,39 655,40 655,180 561,178" class="b"></polygon>
+    </g>
+    <g class="ng-star-inserted">
+        <polygon onmouseout="evt.target.setAttribute('opacity','0');" onmouseover="evt.target.setAttribute('opacity', '0.5');" style="fill:rgba(129,215,66,0.3)" id="5e1fe4331be5cd20580a6831" points="685,212 826,207 822,295 773,302 776,315 689,311" class="b"></polygon>
+    </g>
+    <g class="ng-star-inserted">
+        <polygon onmouseout="evt.target.setAttribute('opacity','0');" onmouseover="evt.target.setAttribute('opacity', '0.5');" style="fill:rgba(129,215,66,0.3)" id="5e1fe4421be5cd20580a6832" points="689,319 775,319 777,335 823,335 827,418 685,420" class="b"></polygon>
+    </g>
+    <g class="ng-star-inserted">
+        <polygon onmouseout="evt.target.setAttribute('opacity','0');" onmouseover="evt.target.setAttribute('opacity', '0.5');" style="fill:rgba(129,215,66,0.3)" id="5e1fe44f1be5cd20580a6833" points="686,423 825,425 824,508 776,511 773,528 687,524" class="b" opacity="0"></polygon>
+    </g>
+    <g class="ng-star-inserted">
+        <polygon onmouseout="evt.target.setAttribute('opacity','0');" onmouseover="evt.target.setAttribute('opacity', '0.5');" style="fill:rgba(129,215,66,0.3)" id="5e1fe45a1be5cd20580a6834" points="689,533 774,533 772,548 825,551 825,633 686,631" class="b"></polygon>
+    </g>
+    <g class="ng-star-inserted">
+        <polygon onmouseout="evt.target.setAttribute('opacity','0');" onmouseover="evt.target.setAttribute('opacity', '0.5');" style="fill:rgba(129,215,66,0.3)" id="5e1fe4661be5cd20580a6835" points="567,531 654,532 655,632 518,633 518,549 567,548" class="b"></polygon>
+    </g>
+    <g class="ng-star-inserted">
+        <polygon onmouseout="evt.target.setAttribute('opacity','0');" onmouseover="evt.target.setAttribute('opacity', '0.5');" style="fill:rgba(129,215,66,0.3)" id="5e1fe4771be5cd20580a6836" points="656,426 654,526 568,526 569,508 517,508 516,425" class="b" opacity="0"></polygon>
+    </g>
+    <g class="ng-star-inserted">
+        <polygon onmouseout="evt.target.setAttribute('opacity','0');" onmouseover="evt.target.setAttribute('opacity', '0.5');" style="fill:rgba(129,215,66,0.3)" id="5e1fe48f1be5cd20580a6837" points="212,55 296,57 296,39 345,39 343,179 213,178" class="c"></polygon>
+    </g>
+    <g class="ng-star-inserted">
+        <polygon onmouseout="evt.target.setAttribute('opacity','0');" onmouseover="evt.target.setAttribute('opacity', '0.5');" style="fill:rgba(129,215,66,0.3)" id="5e1fe49f1be5cd20580a6838" points="687,74 810,75 812,159 827,159 826,206 686,205" class="c"></polygon>
+    </g>
+    <g class="ng-star-inserted">
+        <polygon onmouseout="evt.target.setAttribute('opacity','0');" onmouseover="evt.target.setAttribute('opacity', '0.5');" style="fill:rgba(129,215,66,0.3)" id="5e1fe4ac1be5cd20580a6839" points="687,638 826,639 826,682 811,686 809,770 687,768" class="c"></polygon>
+    </g>
+    <g class="ng-star-inserted">
+        <polygon onmouseout="evt.target.setAttribute('opacity','0');" onmouseover="evt.target.setAttribute('opacity', '0.5');" style="fill:rgba(129,215,66,0.3)" id="5e1fe4bc1be5cd20580a683a" points="655,639 654,768 534,769 534,684 516,684 518,639" class="c"></polygon>
+    </g>
+    <g class="ng-star-inserted">
+        <polygon onmouseout="evt.target.setAttribute('opacity','0');" onmouseover="evt.target.setAttribute('opacity', '0.5');" style="fill:rgba(129,215,66,0.3)" id="5e1fe4e81be5cd20580a683b" points="214,212 343,212 344,331 214,331" class="c"></polygon>
+    </g>
+    <script type="text/javascript"><![CDATA[
+        window.addEventListener("load", () => {
+            let polys = document.getElementsByTagName("polygon")
+            if (polys) {
+                for(var i= 0; i < polys.length; i++) {
+                    const poly = polys[i]
+                    var type = poly.getAttribute("class")
+                    if(type) {
+                        var url = window.location.href
+                        var index = url.lastIndexOf('/')
+                        url = url.substring(0, index) + "/room.html?type=" + type;
+                        console.log(url)
+                        poly.addEventListener("click", () => {
+                            window.open(url, "_blank")
+                        })
+                    }
+                }
+            }
+        })
+    ]]>
+    </script>
+</svg>

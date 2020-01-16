@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Landing page Demo!</title>
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="main-title"><h1>MẶT BẰNG TẦNG</h1></div>
+      <div class="main-area">
+        <div class="vertical-area">
+          <object type="image/svg+xml"></object>
+        </div>
+        <div class="info-area">
+          <div class="selection-area">
+            <select name="blocksl" id="">
+              <option value="A">THÁP A</option>
+              <option value="B">THÁP B</option>
+              <option value="C">THÁP C</option>
+              <option value="D">THÁP D</option>
+              <option value="E">THÁP E</option>
+            </select>
+            <select name="floorsl" id="">
+              <option value="A">THÁP A</option>
+              <option value="B">THÁP B</option>
+              <option value="C">THÁP C</option>
+              <option value="D">THÁP D</option>
+              <option value="E">THÁP E</option>
+            </select>
+          </div>
+          <div class="child-title">
+            <h3 id="title">MẶT BẰNG TỔNG THỂ</h3>
+          </div>
+          <div class="anno-area">
+            <p><span>A</span>1 + 1 PHÒNG NGỦ</p>
+            <p><span>C</span> 3 PHÒNG NGỦ</p>
+            <p><span>B</span> 2 PHÒNG NGỦ</p>
+            <p><span>&nbsp;&nbsp;</span>SÂN VƯỜN</p>
+          </div>
+          <div class="direction-area"></div>
+        </div>
+      </div>
+      <div class="nav-area">
+        <a id="amaz-btn" href="index.html">Quay về</a>
+      </div>
+    </div>
+    <footer></footer>
+    <script>
+      window.addEventListener("load", function() {
+        let requestURL =
+          "https://raw.githubusercontent.com/khang-trinhduy/lovera-data/master/poly.json";
+        let request = new XMLHttpRequest();
+        request.open("GET", requestURL);
+        request.responseType = "json";
+        request.send();
+        request.onload = function() {
+          const res = request.response;
+          const blocks = res.blocks;
+          if (blocks) {
+            populateData(blocks);
+          }
+        };
+        function populateData(blocks) {
+          var id = getQuery("id");
+          if (id) {
+            var block = blocks.find(b => b.id === id);
+            if (block) {
+              var images = block.images;
+              let image = images[0];
+              // updating object data
+              var object = document.getElementsByTagName("object");
+              if (object) {
+                object[0].setAttribute("data", image.svg);
+              }
+              // creating left image
+              const leftImgContainer = document.querySelector(".vertical-area");
+              if (leftImgContainer) {
+                var url = window.location.pathname;
+                const index = url.lastIndexOf("/");
+                var img = document.createElement("img");
+                img.src = image.vertical;
+                url = url.substring(0, index);
+                leftImgContainer.style.backgroundImage =
+                  "url(" + url + "/" + image.vertical + ")";
+                img.onload = () => {
+                  leftImgContainer.style.height = img.height;
+                };
+                leftImgContainer.style.backgroundSize = "contain";
+                leftImgContainer.style.backgroundRepeat = "no-repeat";
+              }
+              // updating right title
+              var title = document.getElementById("title");
+              if (title) {
+                title.innerText =
+                  title.innerText +
+                  " TẦNG " +
+                  image.range +
+                  " - THÁP " +
+                  image.block;
+              }
+              // creating left image
+              var img = document.createElement("img");
+              img.src = image.path;
+              img.style.width = "100%";
+              const orientContainer = document.querySelector(".direction-area");
+              if (orientContainer) {
+                orientContainer.appendChild(img);
+              }
+            }
+          }
+        }
+
+        function getQuery(name) {
+          let query = document.location.search;
+          var params = new URLSearchParams(query);
+          return params.get(name);
+        }
+      });
+    </script>
+  </body>
+</html>

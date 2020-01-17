@@ -168,27 +168,48 @@ body {
   content: "<<";
 }
 .showcase-thumbnail {
-  /* position: absolute; */
   min-width: 350px;
   max-width: 700px;
   width: 100%;
   height: 100%;
-  border: 1px solid red;
-  /* right: 3vh; */
-  /* bottom: 3vh; */
 }
-.showcase-thumbnail>.review {
+.showcase-thumbnail > .review {
   display: none;
+  width: 100%;
+  opacity: 0;
 }
-.vertical-area.room:hover + .info-area>.showcase-thumbnail>.review {
-  display: block;
+.showcase-thumbnail > .review > img {
+  width: 100%;
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
+  .vertical-area.room {
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;
+  }
 }
 
 @media (max-width: 480px) {
+  .main-area {
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .showcase-thumbnail>.review>img {
+    width: 350px;
+  }
+  .showcase-thumbnail>.review {
+    text-align: center;
+  }
+  .info-area {
+    width: 350px;
+  }
+  .selection-area {
+    justify-content: flex-start;
+    align-items: unset;
+  }
 }

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" viewBox="0 0 700 738">
+    <defs></defs>
+    <g class="ng-star-inserted">
+        <polygon onmouseout="evt.target.setAttribute('opacity','0');" onmouseover="evt.target.setAttribute('opacity', '0.1');" style="fill:rgba(129,215,66,0.3)" id="5e2142d902cf1f3a8cd6c4f0" points="24,90 241,92 241,350 24,348" class="a,br2" opacity="0"></polygon>
+    </g>
+    <g class="ng-star-inserted">
+        <polygon onmouseout="evt.target.setAttribute('opacity','0');" onmouseover="evt.target.setAttribute('opacity', '0.1');" style="fill:rgba(129,215,66,0.3)" id="5e2142ef02cf1f3a8cd6c4f1" points="265,91 441,91 441,349 261,351" class="a,br2" opacity="0"></polygon>
+    </g>
+    <g class="ng-star-inserted">
+        <polygon onmouseout="evt.target.setAttribute('opacity','0');" onmouseover="evt.target.setAttribute('opacity', '0.1');" style="fill:rgba(129,215,66,0.3)" id="5e21433502cf1f3a8cd6c4f2" points="22,446 369,448 368,521 211,525 210,711 24,711" class="a,br1" opacity="0"></polygon>
+    </g>
+    <g class="ng-star-inserted">
+        <polygon onmouseout="evt.target.setAttribute('opacity','0');" onmouseover="evt.target.setAttribute('opacity', '0.1');" style="fill:rgba(129,215,66,0.3)" id="5e21434e02cf1f3a8cd6c4f3" points="497,445 500,599 691,597 691,445" class="a,kt" opacity="0"></polygon>
+    </g>
+    <g class="ng-star-inserted">
+        <polygon onmouseout="evt.target.setAttribute('opacity','0');" onmouseover="evt.target.setAttribute('opacity', '0.1');" style="fill:rgba(129,215,66,0.3)" id="5e21436602cf1f3a8cd6c4f4" points="694,274 448,272 449,441 692,444" class="a,et" opacity="0"></polygon>
+    </g>
+    <g class="ng-star-inserted">
+        <polygon onmouseout="evt.target.setAttribute('opacity','0');" onmouseover="evt.target.setAttribute('opacity', '0.1');" style="fill:rgba(129,215,66,0.3)" id="5e21438602cf1f3a8cd6c4f5" points="451,92 687,93 687,278 453,278" class="a,lr1" opacity="0"></polygon>
+    </g>
+</svg>

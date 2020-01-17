@@ -9,13 +9,26 @@
   animation-fill-mode: forwards;
 }
 
-.anno-area, .child-title, .room-list-area, .background-header, #svg-object {
+.anno-area,
+.child-title,
+.room-list-area,
+.background-header,
+#svg-object,
+.showcase-thumbnail > .review {
   animation-name: arise;
   animation-duration: 0.8s;
   animation-delay: 0.15s;
   animation-fill-mode: forwards;
   animation-timing-function: cubic-bezier(0.79, 0.04, 1, 1);
 }
+
+.showcase-thumbnail > .review {
+  animation: arise 0.8s ease-out 0.12s 1 normal forwards;
+}
+
+/* .showcase-thumbnail > .review {
+    animation: moveout 0.4s ease-out 0.12s 1 normal forwards;
+  } */
 
 @keyframes slidein {
   from {
@@ -29,25 +42,33 @@
   }
 }
 
-@keyframes shrink {
-    from {
-        object-fit: contain;
-    }
-
-    75% {
-        object-fit: cover;
-    }
-
-    to {
-        object-fit: none;
-    }
-}
-
 @keyframes arise {
   from {
     opacity: 0;
   }
   to {
     opacity: 1;
+  }
+}
+
+@keyframes movein {
+  from {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes moveout {
+  from {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateX(100px);
   }
 }

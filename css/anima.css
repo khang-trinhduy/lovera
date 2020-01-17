@@ -1,15 +1,20 @@
 .direction-area,
-.vertical-area {
-  animation-name: slidein, arise;
-  animation-duration: 0.5s, 0.8s;
-  animation-delay: 0.2s, 0.2s;
+.vertical-area,
+.room-direction-area {
+  animation-name: slidein;
+  animation-duration: 0.5s;
+  animation-delay: 0.2s;
+  animation-direction: normal;
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
 }
 
-.anno-area, .child-title {
+.anno-area, .child-title, .room-list-area, .background-header, #svg-object {
   animation-name: arise;
-  animation-duration: 1.5s;
+  animation-duration: 0.8s;
   animation-delay: 0.15s;
-  animation-fill-mode: backwards;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(0.79, 0.04, 1, 1);
 }
 
 @keyframes slidein {

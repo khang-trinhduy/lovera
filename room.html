@@ -12,7 +12,7 @@
     <div class="container">
       <div class="main-title"></div>
       <div class="main-area">
-        <div class="vertical-area">
+        <div class="vertical-area room">
           <object type="image/svg+xml"></object>
         </div>
         <div class="info-area">
@@ -29,6 +29,35 @@
           <div class="room-list-area"></div>
           <div class="room-direction-area">
             <h4>VỊ TRÍ CĂN HỘ</h4>
+          </div>
+          <div class="showcase-thumbnail">
+            <div class="et review">
+              <img
+                src="images/room/showcase/eating-room.jpg"
+                alt="eating room"
+              />
+            </div>
+            <div class="lr1 review">
+              <img src="images/room/showcase/lr1.jpg" alt="living room" />
+            </div>
+            <div class="lr2 review">
+              <img src="images/room/showcase/lr2.jpg" alt="living room" />
+            </div>
+            <div class="lr3 review">
+              <img src="images/room/showcase/lr3.jpg" alt="living room" />
+            </div>
+            <div class="lr4 review">
+              <img src="images/room/showcase/lr4.jpg" alt="living room" />
+            </div>
+            <div class="kt review">
+              <img src="images/room/showcase/kitchen.jpg" alt="kitchen" />
+            </div>
+            <div class="br1 review">
+              <img src="images/room/showcase/br1.jpg" alt="bed room" />
+            </div>
+            <div class="br2 review">
+              <img src="images/room/showcase/br2.jpg" alt="bed room" />
+            </div>
           </div>
         </div>
       </div>
@@ -107,8 +136,8 @@
           for (let i = 0; i < arr.length; i++) {
             const type = arr[i];
             var option = document.createElement("option");
-            option.setAttribute("value", "LOẠI " + type.sub);
-            option.innerText = type.sub;
+            option.setAttribute("value", type.sub);
+            option.innerText = "LOẠI " +  type.sub;
             sl.appendChild(option);
           }
           sl.addEventListener("change", function(e) {

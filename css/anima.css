@@ -1,0 +1,48 @@
+.direction-area,
+.vertical-area {
+  animation-name: slidein, arise;
+  animation-duration: 0.5s, 0.8s;
+  animation-delay: 0.2s, 0.2s;
+}
+
+.anno-area, .child-title {
+  animation-name: arise;
+  animation-duration: 1.5s;
+  animation-delay: 0.15s;
+  animation-fill-mode: backwards;
+}
+
+@keyframes slidein {
+  from {
+    margin-top: 100%;
+    opacity: 0;
+  }
+
+  to {
+    margin-top: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes shrink {
+    from {
+        object-fit: contain;
+    }
+
+    75% {
+        object-fit: cover;
+    }
+
+    to {
+        object-fit: none;
+    }
+}
+
+@keyframes arise {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

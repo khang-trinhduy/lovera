@@ -56,7 +56,7 @@
             if (polys) {
                 for(var i= 0; i < polys.length; i++) {
                     const poly = polys[i]
-                    var type = poly.getAttribute("class")
+                    let type = poly.getAttribute("class")
                     if(type) {
                         var url = window.location.href
                         var index = url.lastIndexOf('/')

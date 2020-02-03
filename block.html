@@ -44,6 +44,9 @@
           <div class="direction-area"></div>
         </div>
       </div>
+      <div class="attachment-area">
+        <a class="attach-link" target="_blank" href="">Tải tài liệu</a>
+      </div>
       <div class="nav-area">
         <a id="amaz-btn" href="index.html">Quay về</a>
       </div>
@@ -63,7 +66,28 @@
           if (blocks) {
             populateData(blocks);
           }
+          // updatePolygonEvent();
         };
+
+        function updatePolygonEvent() {
+          var object = document.querySelector("object");
+          if (object) {
+            var polys = object.contentDocument.querySelectorAll("polygon");
+            for (let i = 0; i < polys.length; i++) {
+              const poly = polys[i];
+              let type = poly.getAttribute("class");
+              if (type) {
+                var url = window.location.href;
+                var index = url.lastIndexOf("/");
+                url = url.substring(0, index) + "/room.html?type=" + type;
+                poly.addEventListener("click", () => {
+                  window.open(url, "_blank");
+                });
+              }
+            }
+          }
+        }
+
         function populateData(blocks) {
           var id = getQuery("id");
           if (id) {

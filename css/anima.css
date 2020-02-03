@@ -26,6 +26,10 @@
   animation: arise 0.8s ease-out 0.12s 1 normal forwards;
 }
 
+.attachment-area:hover {
+  animation: arise 0.3 ease-in 0 1 normal normal;
+}
+
 /* .showcase-thumbnail > .review {
     animation: moveout 0.4s ease-out 0.12s 1 normal forwards;
   } */
